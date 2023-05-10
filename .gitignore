@@ -159,3 +159,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 # I prefer for IDE-spcific files to not be in the code repository
 .idea/
+
+# MuseScore
+.mscbackup
