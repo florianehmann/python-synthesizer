@@ -1,2 +1,2 @@
-from .engine import Tone
-from .structures import ADSREnvelope, Waveform
+from .structures import ADSREnvelope, Waveform, Tone
+from .synthesis import calculate_envelope

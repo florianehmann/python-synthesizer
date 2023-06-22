@@ -6,6 +6,6 @@ if __name__ == '__main__':
     for msg in mid.tracks[0]:
         match msg:
             case mido.MetaMessage(type='time_signature'):
-                print(f'time_signatue={msg.numerator}/{msg.denominator}')
+                print(f'time_signature={msg.numerator}/{msg.denominator}')
             case mido.MetaMessage(type='set_tempo'):
                 print(f'tempo={msg.tempo}')
